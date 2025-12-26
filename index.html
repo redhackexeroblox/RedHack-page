@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedHack – Linki</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #0f0f1a, #1a1a2e);
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 500px;
+            width: 90%;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+            color: #ff3b3b;
+        }
+
+        h2 {
+            margin-top: 25px;
+            color: #ff3b3b;
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.6;
+            opacity: 0.9;
+        }
+
+        .links a {
+            display: block;
+            text-decoration: none;
+            color: white;
+            background: #ff3b3b;
+            padding: 12px;
+            margin-top: 10px;
+            border-radius: 10px;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .links a:hover {
+            background: #ff3b3b;
+            transform: scale(1.03);
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            margin-top: 20px;
+            opacity: 0.6;
+        }
+ @keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.container {
+    animation: fadeUp 0.8s ease-out;
+}
+ .avatar {
+    display: block;
+    margin: 0 auto 10px auto;
+    width: 50px;   /* szerokość zdjęcia */
+    height: 50px;  /* wysokość zdjęcia */
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ff3b3b;
+    box-shadow: 0 0 8px rgba(255, 59, 59, 0.6);
+}
+.hacker-effect {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 10px auto;
+}
+
+.hacker-effect::before {
+    content: "0101010101010101";
+    position: absolute;
+    inset: 0;
+    color: #ff3b3b;
+    font-family: monospace;
+    font-size: 10px;
+    text-align: center;
+    line-height: 50px;
+    animation: glitchFade 1.2s ease-out forwards;
+    z-index: 2;
+}
+
+@keyframes glitchFade {
+    0% {
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+    <img src="RedHack-profilowe.jpg" alt="RedHack avatar" class="avatar">
+    <h1>RedHack</h1>
+</div>
+
+    <h2>Kilka słów o mnie:</h2>
+    <p>
+        Jestem RedHack. Mój kontent kręci się (i kręcić będzie) na grach z Roblox.
+        Na chwilę obecną gram w Hide And Seek oraz 99 Nights in the Forest.
+        Do 99 Nights używam skryptu od VoidWare, czasem DevWare.
+        Natomiast w Hide And Seek używam skryptu komend administracyjnych
+        (fly, noclip, esp, espteam, chams oraz ich wyłączniki).
+        Profil TikTok prowadzę z powodu hobby.
+    </p>
+
+    <h2>Linki:</h2>
+    <div class="links">
+        <a href="https://samequizy.pl/sprawdz-czy-wiesz-99-nights-in-the-forest/" target="_blank">
+            Jak dobrze znasz 99 Nights in the Forest? (Quiz)
+        </a>
+
+        <a href="https://samequizy.pl/%ef%b8%8f-ktora-rola-najbardziej-do-ciebie-pasuje-w-99-nights-in-the-forest/" target="_blank">
+            Która rola najbardziej do Ciebie pasuje? (Quiz)
+        </a>
+
+        <a href="https://samequizy.pl/przetrwaj-99-nocy-w-lesie-wersja-quiz-piersze-15-dni-po-angielsku-sorry-daj-znac-w-kom-czy-chcesz-kontynuacje/" target="_blank">
+            Survive 15/99 Nights in the Forest (Quiz EN)
+        </a>
+
+        <a href="https://m.me/ch/Abb1PtXEVetISn9n/?send_source=cm%3Acopy_invite_link" target="_blank">
+            Grupa Messenger – Roblox & poradniki
+        </a>
+    </div>
+
+    <div class="footer">
+        © RedHack | Roblox & TikTok
+    </div>
+</div>
+
+</body>
+</html>
